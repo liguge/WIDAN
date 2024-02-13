@@ -8,16 +8,12 @@ Link:   (**50 days' free access**)
 
 [Sorry]The code will be published after the paper is accepted!
 
-
-
-
-
 ## Brief introduction  
-While transfer learning-based intelligent diagnosis has achieved significant breakthroughs, the performance of existing well-known methods still needs urgent improvement, given the increasingly significant distribution discrepancy between source and target domain data from different machines. To tackle this issue, rather than designing domain discrepancy statistical metrics or elaborate network architecture, we delve deep into the interaction and mutual promotion between signal processing and domain adaptation. Inspired by wavelet technology and weight initialization, an end-to-end, succinct, and high-performance Physics-informed wavelet domain adaptation network (WIDAN) has been subtly devised, which integrates interpretable wavelet knowledge into the dual-stream convolutional layer with independent weights to cope with extremely challenging cross-machine diagnostic tasks. Specifically, the first-layer weights of a CNN are updated with optimized and informative Laplace or Morlet weights. This approach alleviates troublesome parameter selection, where scaling and translation factors with specific physical interpretations are constrained by the convolution kernel parameters. Additionally, a smooth-assisted scaling factor is introduced to ensure consistency with neural network weights. Furthermore, a dual-stream bottleneck layer is designed to learn reasonable weights to pre-transform different domain data into a uniform common space. This can promote WIDAN to extract domain-invariant features. Holistic evaluations confirm that WIDAN outperforms state-of-the-art models across multiple tasks, indicating that a wide first-layer kernel with optimized wavelet weight initialization can enhance domain transferability, thus validly fostering cross-machine diagnosis.
+While transfer learning-based intelligent diagnosis has achieved significant breakthroughs, the performance of existing well-known methods still needs urgent improvement, given the increasingly significant distribution discrepancy between source and target domain data from different machines. To tackle this issue, rather than designing domain discrepancy statistical metrics or elaborate network architecture, we delve deep into the interaction and mutual promotion between signal processing and domain adaptation. Inspired by wavelet technology and weight initialization, an end-to-end, succinct, and high-performance Physics-informed wavelet domain adaptation network (WIDAN) has been subtly devised, which integrates interpretable wavelet knowledge into the dual-stream convolutional layer with independent weights to cope with extremely challenging cross-machine diagnostic tasks. Specifically, the first-layer weights of a CNN are updated with optimized and informative Laplace or Morlet weights. This approach alleviates troublesome parameter selection, where scaling and translation factors with specific physical interpretations are constrained by the convolution kernel parameters. Additionally, a smooth-assisted scaling factor is introduced to ensure consistency with neural network weights. Furthermore, a dual-stream bottleneck layer is designed to learn reasonable weights to pre-transform different domain data into a uniform common space. This can promote WIDAN to extract domain-invariant features. Holistic evaluations confirm that WIDAN outperforms state-of-the-art models across multiple tasks, indicating that a wide first-layer kernel with optimized wavelet weight initialization can enhance domain transferability, thus validly fostering cross-machine transfer diagnosis.
 
 ## Highlights
 
-- A wide first-layer kernel with optimized wavelet weights is designed to diminish intro-domain and intradomain discrepancy.
+- A first-layer kernel with wavelet weights is designed to diminish domain discrepancy.
 - Optimized wavelet weights are devised as the first-layer initialization.
 - The dual-stream module is designed to promote the domain transferability.
 - A paradigm for transfer diagnosis is posed to design the first convolutional layer.
@@ -42,10 +38,18 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**Xiaorong Liu<sup>c</sup> a
 ## Citation
 
 ```html
-
+@article{he2024interpretable,
+  title={Interpretable physics-informed domain adaptation paradigm for cross-machine transfer diagnosis},
+  author={He, Chao and Shi, Hongmei and Liu, Xiaorong and Li, Jianbo},
+  journal={Knowledge-Based Systems},
+  volume={?},
+  pages={111499},
+  year={2024},
+  doi={10.1016/j.knosys.2024.111499}
+}
 ```
 
-
+C. He, H. Shi, X. Liu, J. Li, Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis, Knowledge-Based Systems ? (2024) 111499, https://doi.org/10.1016/j.knosys.2024.111499
 
 
 
