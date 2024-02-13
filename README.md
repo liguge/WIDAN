@@ -1,6 +1,6 @@
 # Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis
 
-The pytorch implementation of the paper [Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis]()
+The pytorch implementation of the paper [Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis](https://doi.org/10.1016/j.knosys.2024.111499)
 
 Link:   (**50 days' free access**)
 
@@ -27,7 +27,7 @@ While transfer learning-based intelligent diagnosis has achieved significant bre
 ## Paper
 Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis
 
-Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b</sup>**, Xiaorong Liu<sup>c</sup> and Jianbo Li<sup>a,b</sup>
+Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**Xiaorong Liu<sup>c</sup> and Jianbo Li<sup>a,b</sup>
 
 <sup>a</sup>State Key Laboratory of Advanced Rail Autonomous Operation, Beijing Jiaotong University, Beijing 100044, China 
 
