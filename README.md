@@ -2,7 +2,7 @@
 
 The pytorch implementation of the paper [Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis](https://doi.org/10.1016/j.knosys.2024.111499)
 
-Link:   (**50 days' free access**)
+Link:   https://authors.elsevier.com/c/1ib9q3OAb9CyP1 (**50 days' free access**)
 
 # Updating!
 
@@ -31,7 +31,7 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Xiaorong Liu<sup>c</sup>
 
 <sup>c</sup>School of Computing and Artificial Intelligence, Southwest Jiaotong University, Chengdu 611756, China
 
-[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems)
+[Knowledge-Based Systems](https://www.sciencedirect.com/journal/knowledge-based-systems/vol/288/suppl/C)
 
 
 
@@ -42,14 +42,14 @@ Chao He<sup>a,b</sup>, **Hongmei Shi<sup>a,b,*</sup>**, Xiaorong Liu<sup>c</sup>
   title={Interpretable physics-informed domain adaptation paradigm for cross-machine transfer diagnosis},
   author={He, Chao and Shi, Hongmei and Liu, Xiaorong and Li, Jianbo},
   journal={Knowledge-Based Systems},
-  volume={?},
+  volume={288},
   pages={111499},
   year={2024},
   doi={10.1016/j.knosys.2024.111499}
 }
 ```
 
-C. He, H. Shi, X. Liu, J. Li, Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis, Knowledge-Based Systems ? (2024) 111499, https://doi.org/10.1016/j.knosys.2024.111499
+C. He, H. Shi, X. Liu, J. Li, Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis, Knowledge-Based Systems 288 (2024) 111499, https://doi.org/10.1016/j.knosys.2024.111499
 
 
 
