@@ -6,7 +6,7 @@ The pytorch implementation of the paper [Interpretable Physics-informed Domain A
 
 # Result!
 
-The code is based on [UDTL](https://github.com/ZhaoZhibin/UDTL) and the PU dataset, and the accuracy can be improved from 63.79% to 77.19%, an increase of 13.40%.
+The code is based on [UDTL](https://github.com/ZhaoZhibin/UDTL) and the PU dataset, and the accuracy can be improved from 63.79% to 77.19%, an increase of **13.40%**.
 
 - Baseline(**Line 183 in resnet_18.py**)
 
