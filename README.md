@@ -2,11 +2,19 @@
 
 The pytorch implementation of the paper [Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis](https://doi.org/10.1016/j.knosys.2024.111499)
 
-Link:   https://authors.elsevier.com/c/1ib9q3OAb9CyP1 (**50 days' free access**)
 
-# Updating!
 
-[Sorry]The code will be published after the paper is accepted!
+# Result!
+
+The code is based on UDTL and the PU dataset, and the accuracy can be improved from 63.79% to 77.19%, an increase of 13.40%.
+
+- Baseline(**Line 183 in resnet_18.py**)
+
+  ![image-20240405212227670](G:\研究生资料\博士\投稿论文\第三篇\image-20240405212227670.png)
+
+- Weight initialization
+
+  ![image-20240405212209638](G:\研究生资料\博士\投稿论文\第三篇\image-20240405212209638.png)
 
 ## Brief introduction  
 While transfer learning-based intelligent diagnosis has achieved significant breakthroughs, the performance of existing well-known methods still needs urgent improvement, given the increasingly significant distribution discrepancy between source and target domain data from different machines. To tackle this issue, rather than designing domain discrepancy statistical metrics or elaborate network architecture, we delve deep into the interaction and mutual promotion between signal processing and domain adaptation. Inspired by wavelet technology and weight initialization, an end-to-end, succinct, and high-performance Physics-informed wavelet domain adaptation network (WIDAN) has been subtly devised, which integrates interpretable wavelet knowledge into the dual-stream convolutional layer with independent weights to cope with extremely challenging cross-machine diagnostic tasks. Specifically, the first-layer weights of a CNN are updated with optimized and informative Laplace or Morlet weights. This approach alleviates troublesome parameter selection, where scaling and translation factors with specific physical interpretations are constrained by the convolution kernel parameters. Additionally, a smooth-assisted scaling factor is introduced to ensure consistency with neural network weights. Furthermore, a dual-stream bottleneck layer is designed to learn reasonable weights to pre-transform different domain data into a uniform common space. This can promote WIDAN to extract domain-invariant features. Holistic evaluations confirm that WIDAN outperforms state-of-the-art models across multiple tasks, indicating that a wide first-layer kernel with optimized wavelet weight initialization can enhance domain transferability, thus validly fostering cross-machine transfer diagnosis.
