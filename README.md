@@ -1,4 +1,4 @@
-# Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis
+# 🔥 Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis
 
 The pytorch implementation of the paper [Interpretable Physics-informed Domain Adaptation Paradigm for Cross-machine Transfer Diagnosis](https://doi.org/10.1016/j.knosys.2024.111499)
 
